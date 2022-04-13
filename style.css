@@ -10,18 +10,18 @@ header {background-color: rgb(0, 0, 0);
     align-items: center;
 padding: 10px;}
 
-.titulo {color: rgb(212, 204, 97);}
+.titulo {color: #FFD200;}
 
 a {text-decoration: none;
 color: rgba(255, 255, 255, 0.747);}
 
 nav a {font-weight: 600; padding-right: 20px;}
 
-nav a:hover {color: rgb(212, 204, 97);}
+nav a:hover {color: #FFD200;}
 
 
 
-.foto1 {background-color: rgb(212, 204, 97);
+.foto1 {background-image: linear-gradient(to right, #F7971E, #FFD200);
 display: flex; flex-direction: column;
 padding: 50px;
 height: 300px;
@@ -29,12 +29,13 @@ align-items: center;
 justify-content: space-around;}
 
 .cuadro {display: flex; font-size: 2rem; padding: 10px; }
-.cuadro ul {background-color: rgb(109, 109, 109); padding: 40px;
+.cuadro ul {background-image: linear-gradient(to left,#f8cc97, rgb(167, 167, 167)); padding: 40px;
     text-align: center;
  border-radius: 10%; margin: 20px;
 }
 
-
+.cuadro ul:hover {transform: scale(1.3);
+    transition: all .8s}
 
 .mensaje {font-size: 20px;}
 
@@ -43,7 +44,7 @@ display: grid;
 grid-template-columns: 200px auto 200px;
 }
 .caja3 {background-color: rgb(128, 128, 128);
-color: rgb(250, 246, 196); height: 600px;
+color: #FFD200; height: 600px;
  }
  .plataformas div {
      padding: 10px;
@@ -56,7 +57,7 @@ height: 600px;}
 
 .imagen {width: 20px; height: 5px;}
 
-.experiencia3 {color:rgb(250, 246, 196); background-color: rgb(109, 109, 109);}
+.experiencia3 {color:#FFD200; background-color: rgb(109, 109, 109);}
 footer {height: 600px;background-color: black; height:100px; justify-content: space-around;
 display: flex; font-size: 1rem; padding: 30px;}
-footer ul {color: rgb(212, 204, 97); padding: 40px; align-items: center;}
+footer ul {color: #FFD200; padding: 40px; align-items: center;}
