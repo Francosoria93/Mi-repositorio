@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {font-family: sans-serif;}
+header {background-color: rgb(0, 0, 0);
+     display: flex;
+     justify-content: space-between; 
+     height: 75px;
+    align-items: center;
+padding: 10px;}
+
+.titulo {color: rgb(212, 204, 97);}
+
+a {text-decoration: none;
+color: rgba(255, 255, 255, 0.747);}
+
+nav a {font-weight: 600; padding-right: 20px;}
+
+nav a:hover {color: rgb(212, 204, 97);}
+
+
+
+.foto1 {background-color: rgb(212, 204, 97);
+display: flex; flex-direction: column;
+padding: 50px;
+height: 300px;
+align-items: center;
+justify-content: space-around;}
+
+.cuadro {display: flex; font-size: 2rem; padding: 10px; }
+.cuadro ul {background-color: rgb(109, 109, 109); padding: 40px;
+    text-align: center;
+ border-radius: 10%; margin: 20px;
+}
+
+
+
+.mensaje {font-size: 20px;}
+
+.grid-container {
+display: grid;
+grid-template-columns: 200px auto 200px;
+}
+.caja3 {background-color: rgb(128, 128, 128);
+color: rgb(250, 246, 196); height: 600px;
+ }
+ .plataformas div {
+     padding: 10px;
+     margin: 20px;
+ }
+
+.caja4 {background-image: url(/imagen/Home-Studio.jpg);
+color: black;
+height: 600px;}
+
+.imagen {width: 20px; height: 5px;}
+
+.experiencia3 {color:rgb(250, 246, 196); background-color: rgb(109, 109, 109);}
+footer {height: 600px;background-color: black; height:100px; justify-content: space-around;
+display: flex; font-size: 1rem; padding: 30px;}
+footer ul {color: rgb(212, 204, 97); padding: 40px; align-items: center;}
